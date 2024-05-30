@@ -1,0 +1,31 @@
+\documentclass[12pt]{scrartcl}
+
+\input{../Style Template/Packages.tex}
+\input{../Style Template/FormatAndHeader.tex}
+
+\setcounter{sheetnr}{3}
+\setcounter{exnum}{2}
+
+\begin{document}
+
+\exercise{}
+\begin{enumerate}
+    \item \begin{enumerate}
+        \item $E \leq Q$\\
+              Seien v, u Kodierungen für zwei Turingmaschinen. \\\\
+              \begin{tabular}[h!]{l}
+                \hline
+                Definition von $M_{u, v}$\\\hline
+                1: \textbf{input $x \in \{0,1\}^*$}\\
+                2: Simuliere $M_u$ auf Eingabe x\\
+                3: Simuliere $M_v$ auf Eingabe x\\
+                4: Falls beide akzeptieren: \textbf{reject}\\
+                5: Falls beide nicht akzeptieren: \textbf{reject}\\
+                6: Sonst: \textbf{accept}\\\hline
+              \end{tabular}\\\\
+              Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^* \# \{0,1\}^*$ mittels $f(w) := v\#w$\\\\
+              Zu zeigen: $w \in E \Longleftrightarrow f(w) \in Q $\\\\
+              Zu $\Longrightarrow$:
+    \end{enumerate}
+\end{enumerate}
+\end{document}

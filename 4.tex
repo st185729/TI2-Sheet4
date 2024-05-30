@@ -24,8 +24,17 @@
                 6: Sonst: \textbf{accept}\\\hline
               \end{tabular}\\\\
               Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^* \# \{0,1\}^*$ mittels $f(w) := v\#w$\\\\
-              Zu zeigen: $w \in E \Longleftrightarrow f(w) \in Q $\\\\
-              Zu $\Longrightarrow$:
+              Zu zeigen: $w \in E \Longleftrightarrow f(w) \in Q $ für $w \in \{0,1\}^*$\\\\
+              Zu $\Rightarrow$: Sei $w \in E$. Dann hält $M_w$ auf keiner Eingabe. Also hält 
+              $M_{u,v}$ auf keinem $x \in \{0,1\}^*$. Dann halten $M_u$ und $M_v$ entweder beide auf jedem x oder beide halten auf keinem.
+               Also gilt $x \in T(M_u) \cap T(M_v)$ oder $x \notin T(M_u) \cap T(M_v)$ für jedes $x \in \{0,1\}^*$. Es ist somit
+               $ T(M_u) = T(M_v)$, also $f(w) \in Q$ für jedes $x \in \{0,1\}^*$.\\
+
+               Zu $\Leftarrow$: Sei $w \notin E$. Dann hält $M_w$ auf mindestens einer Eingabe. Also
+               $M_{u,w}$ für alle Eingaben. Dann akzeptiert jeweils nur eine der Turingmaschinen $M_u$ und 
+               $M_v$ für die Eingabe $x$. Es gilt also entweder $x \in T(M_u)$ und $x \notin T(M_v)$ oder anders herum.
+               Also $T(M_u) \neq T(M_v)$ und somit $f(w) \notin Q$.
+        \item 
     \end{enumerate}
 \end{enumerate}
 \end{document}

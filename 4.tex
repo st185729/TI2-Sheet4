@@ -1,7 +1,7 @@
 \documentclass[12pt]{scrartcl}
 
-\input{../Style Template/Packages.tex}
-\input{../Style Template/FormatAndHeader.tex}
+\input{Style Template/Packages.tex}
+\input{Style Template/FormatAndHeader.tex}
 
 \setcounter{sheetnr}{3}
 \setcounter{exnum}{2}
@@ -25,7 +25,13 @@
               \end{tabular}\\\\
               Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^* \# \{0,1\}^*$ mittels $f(w) := v\#w$\\\\
               Zu zeigen: $w \in E \Longleftrightarrow f(w) \in Q $ für $w \in \{0,1\}^*$\\\\
+              Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^* \# \{0,1\}^*$ mittels $f(w) := v\#w$\\\\
+              Zu zeigen: $w \in E \Longleftrightarrow f(w) \in Q $ für $w \in \{0,1\}^*$\\\\
               Zu $\Rightarrow$: Sei $w \in E$. Dann hält $M_w$ auf keiner Eingabe. Also hält 
+              $M_{u,v}$ auf keinem $x \in \{0,1\}^*$. Dann halten $M_u$ und $M_v$ entweder beide auf jedem x oder beide halten auf keinem.
+               Also gilt $x \in T(M_u) \cap T(M_v)$ oder $x \notin T(M_u) \cap T(M_v)$ für jedes $x \in \{0,1\}^*$. Es ist somit
+               $ T(M_u) = T(M_v)$, also $f(w) \in Q$ für jedes $x \in \{0,1\}^*$.\\
+ Dann hält $M_w$ auf keiner Eingabe. Also hält 
               $M_{u,v}$ auf keinem $x \in \{0,1\}^*$. Dann halten $M_u$ und $M_v$ entweder beide auf jedem x oder beide halten auf keinem.
                Also gilt $x \in T(M_u) \cap T(M_v)$ oder $x \notin T(M_u) \cap T(M_v)$ für jedes $x \in \{0,1\}^*$. Es ist somit
                $ T(M_u) = T(M_v)$, also $f(w) \in Q$ für jedes $x \in \{0,1\}^*$.\\
@@ -34,7 +40,18 @@
                $M_{u,w}$ für alle Eingaben. Dann akzeptiert jeweils nur eine der Turingmaschinen $M_u$ und 
                $M_v$ für die Eingabe $x$. Es gilt also entweder $x \in T(M_u)$ und $x \notin T(M_v)$ oder anders herum.
                Also $T(M_u) \neq T(M_v)$ und somit $f(w) \notin Q$.
-        \item 
+        \item $H_0 \leq U$\\
+              Sei $u$ die Kodierung einer Turingmaschine $M_{u}$.\\\\
+              \begin{tabular}[h!]{l}
+                \hline
+                Definition von $M_{u}^{'}$\\\hline
+                1: \textbf{input $x \in \{0,1\}^*$}\\
+                2: Simuliere $M_{u}$ auf leerer Eingabe.\\
+                3: \textbf{accept}\\\hline
+              \end{tabular}\\\\
+              Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^*$ mittels $f(w) := w^{'}$ ?\\\\
+              Zu zeigen: $w \in H_0 \Longleftrightarrow f(w) \in U $ für $w \in \{0,1\}^*$\\
+              Zu $\Rightarrow$: Sei $w \in H_0$. Dann hält $M_{w}$ auf leerer Eingabe. Also hält $M_{u}^{'}$ auf jedem $x \in \{0,1\}^*$.
     \end{enumerate}
 \end{enumerate}
 \end{document}

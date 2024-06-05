@@ -75,7 +75,41 @@
                $M_{u,w}$ für mindestens eine Eingabe nicht (?). Dann akzeptiert jeweils nur eine der Turingmaschinen $M_u$ und 
                $M_v$ für die Eingabe $x$. Es gilt also entweder $x \in T(M_u)$ und $x \notin T(M_v)$ oder anders herum.
                Also $T(M_u) \neq T(M_v)$ und somit $f(w) \notin Q$.
-        \item $I \leq U$
+        \item $I \leq U$\\
+        Sei $f(w)$ die Kodierung einer Turingmaschine $M_{f(w)}$.\\\\
+        \begin{tabular}[h!]{l}
+          \hline
+          Definition von $M_{f(w)}$\\\hline
+          1: \textbf{input $x \in \{0,1\}^*$}\\
+          2: Simuliere $M_{w}$ auf Eingabe x.\\
+          3: \textbf{accept}\\\hline
+        \end{tabular}\\\\
+        Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^*$ mittels $f(w) := w^{'}$ ?\\\\
+        Zu zeigen: $w \in H_0 \Longleftrightarrow f(w) \in U $ für $w \in \{0,1\}^*$\\
+        Zu $\Rightarrow$: Sei $w \in I$. Dann hält $M_{w}$ auf unendlich vielen Eingabe. Also hält $M_{f(w)}$ auf jedem $x \in \{0,1\}^*$.
+        Somit ist $T(M_{f(w)}) = \Sigma^*$, also $f(w) \in U$\\
+
+        Zu $\Leftarrow$: Sei $w \notin I$. Dann hält $M_{w}$ nicht auf leerer Eingabe. Also hält $M_{f(w)}$ auf keinem $x \in \{0,1\}^*$.
+        Somit ist $T(M_{f(w)}) = \emptyset$, also $f(w) \notin U$\\
     \end{enumerate}
+    \item $H_0$ ist semi-entscheidbar, aber nicht co-semi-entscheidbar. $E$ ist unentscheidbar
 \end{enumerate}
+
+\newpage
+
+\setcounter{exnum}{4}
+
+\exercise{}
+\begin{enumerate}
+  \item Sei \small{$F:= (\exists w(1+w=m)) \wedge (\exists w^{'}(m+w^{'}+1=n)) \wedge (\forall v(\exists k(v*k=m) \wedge \exists k(v*k=n)) \rightarrow v \leq 1)$}\\
+  
+        Für $m, n \in \mathbb{N}$ wird 
+        \begin{align*}
+          F(m, n) &\Longleftrightarrow m \, \mathrm{liegt \, zwischen \, 1 \, und} \,n-1 \mathrm{und \, jede \, Zahl, \,die} \, m \, \mathrm{und}\, n\, \mathrm{teilt, \,ist\, maximal} \, 1\\
+                  &\Longleftrightarrow 1 \leq m < n \wedge ggT(m,n) = 1\\
+                  &\Longleftrightarrow f(n)=m
+        \end{align*}
+  \item 
+\end{enumerate}
+
 \end{document}

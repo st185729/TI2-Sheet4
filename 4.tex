@@ -11,7 +11,7 @@
 \exercise{}
 \begin{enumerate}
     \item \begin{enumerate}
-        \item $E \leq Q$
+        \item $E \leq Q$\\
               Seien v, u Kodierungen für zwei Turingmaschinen.\\\\
               \begin{tabular}[h!]{l}
                 \hline
@@ -50,8 +50,32 @@
 
               Zu $\Leftarrow$: Sei $w \notin H_0$. Dann hält $M_{w}$ nicht auf leerer Eingabe. Also hält $M_{f(w)}$ auf keinem $x \in \{0,1\}^*$.
               Somit ist $T(M_{f(w)}) = \emptyset$, also $f(w) \notin U$\\
+\newpage
         \item $U \leq Q$\\
-              
+              Seien v, u Kodierungen für zwei Turingmaschinen.\\\\
+              \begin{tabular}[h!]{l}
+                \hline
+                Definition von $M_{u, v}$\\\hline
+                1: \textbf{input $x \in \{0,1\}^*$}\\
+                2: Simuliere $M_u$ auf Eingabe x\\
+                3: Simuliere $M_v$ auf Eingabe x\\
+                4: Falls beide akzeptieren: \textbf{accept}\\
+                5: Falls beide nicht akzeptieren: \textbf{accept}\\
+                6: Sonst: \textbf{reject}\\\hline
+              \end{tabular}\\\\
+              Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^* \# \{0,1\}^*$ mittels $f(w) := v\#w$\\\\
+              Zu zeigen: $w \in U \Longleftrightarrow f(w) \in Q $ für $w \in \{0,1\}^*$\\
+
+              Zu $\Rightarrow$: Sei $w \in E$. Dann hält $M_w$ auf jeder Eingabe. Also hält 
+              $M_{u,v}$ auf jedem $x \in \{0,1\}^*$. Dann halten $M_u$ und $M_v$ entweder beide auf jedem x oder beide halten auf keinem.
+               Also gilt $x \in T(M_u) \cap T(M_v)$ oder $x \notin T(M_u) \cap T(M_v)$ für jedes $x \in \{0,1\}^*$. Es ist somit
+               $ T(M_u) = T(M_v)$, also $f(w) \in Q$ für jedes $x \in \{0,1\}^*$.\\
+ 
+               Zu $\Leftarrow$: Sei $w \notin E$. Dann hält $M_w$ auf mindestens einer Eingabe nicht. Also
+               $M_{u,w}$ für mindestens eine Eingabe nicht (?). Dann akzeptiert jeweils nur eine der Turingmaschinen $M_u$ und 
+               $M_v$ für die Eingabe $x$. Es gilt also entweder $x \in T(M_u)$ und $x \notin T(M_v)$ oder anders herum.
+               Also $T(M_u) \neq T(M_v)$ und somit $f(w) \notin Q$.
+        \item $I \leq U$
     \end{enumerate}
 \end{enumerate}
 \end{document}

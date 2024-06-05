@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.6)  5 JUN 2024 20:59
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.6.3)  5 JUN 2024 20:51
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.6.3)  5 JUN 2024 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -135,28 +131,9 @@ Package: babel 2024/02/07 v24.2 The Babel package
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count198
- (/usr/share/texmf-dist/tex/generic/babel/errbabel.def)
-
-/usr/share/texmf-dist/tex/generic/babel/babel.sty:4210: Package babel Error: Unknown option 'ngerman'. Either you misspelled it
-(babel)                or the language definition file ngerman.ldf
-(babel)                was not found.
-(babel)                There is a locale ini file for this language.
-(babel)                If it’s the main language, try adding `provide=*'
-(babel)                to the babel package options.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4210 \ProcessOptions*
-                       
-Valid options are, among others: shorthands=, KeepShorthandsActive,
-activeacute, activegrave, noconfigs, safe=, main=, math=
-headfoot=, strings=, config=, hyphenmap=, or a language name.
-
 Package babel Info: You haven't specified a language as a class or package
 (babel)             option. I'll load 'nil'. Reported on input line 4258.
-(/usr/share/texmf-dist/tex/generic/babel/nil.ldf
+ (/usr/share/texmf-dist/tex/generic/babel/nil.ldf
 Language: nil 2024/02/07 v24.2 Nil language
 \l@nil=\language6
 )) (/usr/share/texmf-dist/tex/latex/lm/lmodern.sty
@@ -822,32 +799,15 @@ File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks48
 \c@AM@survey=\count347
 \AM@templatesizebox=\box137
-<<<<<<< HEAD
-)) (C:\Users\julia\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-=======
 )) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-<<<<<<< HEAD
-)) (Style Template/FormatAndHeader.tex
-\c@sheetnr=\count346
-\c@exnum=\count347
-) (4.aux)
-=======
 )) (./Style Template/FormatAndHeader.tex
 \c@sheetnr=\count348
 \c@exnum=\count349
-) (./4.aux (/usr/share/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-Package babel Info: Importing basic data for ngerman
-(babel)             from babel-de.ini. Reported on input line 11.
-)
-Package babel Info: Hyphen rules for 'ngerman' set to \l@nil
-(babel)             (\language6). Reported on input line 10.
-)
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
+) (./4.aux)
 \openout1 = `4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -883,24 +843,15 @@ LaTeX Font Info:    ... okay on input line 9.
 \everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-<<<<<<< HEAD
- (C:\Users\julia\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-=======
  (/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
-<<<<<<< HEAD
- (C:\Users\julia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-=======
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
 ))
 \c@lstlisting=\count356
 Package tocbasic Info: setting babel extension for `lol' on input line 9.
@@ -963,19 +914,11 @@ LaTeX Font Info:    Trying to load font information for OML+lmm on input line 14
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 14.
-<<<<<<< HEAD
- (C:\Users\julia\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 14.
- (C:\Users\julia\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-=======
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 14.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -992,94 +935,81 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 14--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 37--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--38
+Underfull \hbox (badness 10000) in paragraph at lines 37--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--55
+Underfull \hbox (badness 10000) in paragraph at lines 37--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--55
+Underfull \hbox (badness 10000) in paragraph at lines 37--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
-<<<<<<< HEAD
-{C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (4.aux)
-=======
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] (./4.aux)
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 30656 strings out of 474592
- 612210 string characters out of 5745799
- 1951533 words of memory out of 5000000
- 52320 multiletter control sequences out of 15000+600000
- 588738 words of font info for 60 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10982b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 4.pdf (1 page, 158448 bytes).
-PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
-=======
- 30730 strings out of 476076
- 605485 string characters out of 5793776
- 1952187 words of memory out of 5000000
- 52331 multiletter control sequences out of 15000+600000
+ 30548 strings out of 476076
+ 601129 string characters out of 5793776
+ 1951187 words of memory out of 5000000
+ 52156 multiletter control sequences out of 15000+600000
  588738 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,19n,107p,10950b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 4.pdf (1 page, 149231 bytes).
+Output written on 4.pdf (1 page, 149971 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
->>>>>>> d75a90ed08082dfdfc2a95ded37bf7a9b34b0a4b
- 6 named destinations out of 1000 (max. 500000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

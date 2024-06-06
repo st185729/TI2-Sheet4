@@ -84,7 +84,7 @@
           2: Simuliere $M_{w}$ auf Eingabe x.\\
           3: \textbf{accept}\\\hline
         \end{tabular}\\\\
-        Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^*$ mittels $f(w) := w^{'}$ ?\\\\
+        Definiere $f: \, \{0,1\}^* \rightarrow \{0,1\}^*, x \longmapsto f(w)$ \\\\
         Zu zeigen: $w \in H_0 \Longleftrightarrow f(w) \in U $ für $w \in \{0,1\}^*$\\
         Zu $\Rightarrow$: Sei $w \in I$. Dann hält $M_{w}$ auf unendlich vielen Eingabe. Also hält $M_{f(w)}$ auf jedem $x \in \{0,1\}^*$.
         Somit ist $T(M_{f(w)}) = \Sigma^*$, also $f(w) \in U$\\
@@ -92,7 +92,7 @@
         Zu $\Leftarrow$: Sei $w \notin I$. Dann hält $M_{w}$ nicht auf leerer Eingabe. Also hält $M_{f(w)}$ auf keinem $x \in \{0,1\}^*$.
         Somit ist $T(M_{f(w)}) = \emptyset$, also $f(w) \notin U$\\
     \end{enumerate}
-    \item $H_0$ ist semi-entscheidbar, aber nicht co-semi-entscheidbar. $E$ ist unentscheidbar
+    \item $H_0$ ist semi-entscheidbar, aber nicht co-semi-entscheidbar. $E$ ist co-semi-entscheidbar, aber nicht semientscheidbar. wegen i) ist Q somit auch nicht semientscheidbar. Dadurch ist auch I nicht semientscheidbar.
 \end{enumerate}
 
 \newpage
